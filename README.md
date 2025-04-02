@@ -1,6 +1,58 @@
-# flutter_application_8
+# Flutter Product List App
 
-A new Flutter project.
+This is a basic Flutter application that displays a list of products with images, names, and prices. Users can tap on a product to view more details, and simulate adding it to a cart.
+
+## 📱 Features
+
+- Product list with name, image and price
+- "Add to Cart" button logs item to console
+- Detail page with navigation
+- Static product data (no API)
+
+## 📂 Project Structure
+
+lib/
+├── data/
+│   └── entity/
+│       └── products.dart         # Product model
+├── ui/
+│   └── views/
+│       ├── detailPage.dart       # Product detail screen
+│       └── mainPage.dart         # Product list screen
+└── main.dart                     # App entry point
+
+assets/
+└── images/                       # Product images
+
+## ▶️ How to Run
+
+1. Clone the repository:
+   git clone https://github.com/yourusername/flutter_product_list_app.git
+
+2. Navigate to the project folder:
+   cd flutter_product_list_app
+
+3. Get dependencies:
+   flutter pub get
+
+4. Run the app:
+   flutter run
+
+## 🧾 Notes
+
+- Make sure to declare your image assets in `pubspec.yaml`, like:
+
+flutter:
+  assets:
+    - images/
+
+- Images used: `computer.png`, `glasses.png`, `headphone.png`, `perfume.png`, `watch.png`, `cleaner.png`, `phone.png`
+
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
 
 ## Getting Started
 
